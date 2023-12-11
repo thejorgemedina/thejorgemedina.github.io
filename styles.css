@@ -63,7 +63,7 @@ h2 {
   color: var(--primary-color);
   border-radius: var(--border-rounding);
   cursor: pointer;
-  border: 2px solid var(--jetblack-color);
+  border: 1px solid var(--jetblack-color);
   box-shadow: 4px 4px 0 0px var(--mustard-color);
   padding: 20px;
 }
