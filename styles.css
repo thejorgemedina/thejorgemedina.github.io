@@ -9,10 +9,8 @@
 }
 
 body {
-  /* Set to use a background image and remove background-color */
-  /* background-image: url('path_to_your_image.jpg'); */
-  background-color: #ffffff; 
-  color: var(--jetback-color);
+  background-color: var(--white-color);
+  color: var(--jetblack-color);
   margin: 10% auto;
   /* Change your font here */
   font-family: "Poppins", sans-serif;
@@ -45,7 +43,7 @@ h2 {
 
 .title-block {
   margin: 0 auto;
-  width: 400px;
+  width: 450px;
 }
 
 .links {
@@ -69,14 +67,13 @@ h2 {
 
 .link:hover {
   transform: scale(1.05);
-  background-color: var(--mustard-color);
+  /*background-color: var(--mustard-color);
   color: var(--jetblack-color);
-  box-shadow: 4px 4px 0 0px var(--jetblack-color);
+  box-shadow: 4px 4px 0 0px var(--jetblack-color);*/
 }
 
 .card {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding: 24px;
   font-size: 14px;
   background-color: var(--white-color);
   color: var(--jetblack-color);
@@ -84,7 +81,36 @@ h2 {
   cursor: pointer;
   border: 1px solid var(--jetblack-color);
   box-shadow: 4px 4px 0 0px var(--mustard-color);
-  padding: 12px;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /*background-color: var(--mustard-color);
+  color: var(--jetblack-color);
+  box-shadow: 4px 4px 0 0px var(--jetblack-color);*/
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-body {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-image {
+  width: 100%;
+  height: 100px;
+  background-color: var(--white-color);
+  border-radius: var(--border-rounding);
+  object-fit: contain;
+  /* 
+  border: 1px solid var(--jetblack-color);
+  box-shadow: 2px 2px 0 0px var(--jetblack-color);
+  */
 }
 
 .section {
@@ -100,13 +126,13 @@ h2 {
 }
 
 .large-padding {
-  padding: 10px;
+  padding: 24px;
 }
 
 .standard-padding {
-  padding: 5px;
+  padding: 8px;
 }
 
 .small-padding {
-  padding: 5px;
+  padding: 4px;
 }
